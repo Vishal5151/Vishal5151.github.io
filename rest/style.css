@@ -44,16 +44,18 @@ nav li a:hover {
 #home h2 {
 	font-size: 48px;
 	margin-bottom: 40px;
+	color: #e9e5e5;
 }
 
 #home p {
 	font-size: 24px;
 	margin-bottom: 40px;
+	color: #e9e5e5;
 }
 
 #home button {
 	background-color: #fff;
-	color: #333;
+	color: #e9e5e5;
 	font-size: 18px;
 	padding: 10px 20px;
 	border-radius: 5px;
@@ -61,7 +63,13 @@ nav li a:hover {
 	cursor: pointer;
     text-align: center;
 }
-
+.container{
+	width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.75),rgba(0,0,0,0.75)),url(resttaurant.jpg);
+    background-size: auto;
+    background-position: center;
+}
 #home button:hover {
 	background-color: #333;
 	color: #fff;
